@@ -51,7 +51,7 @@ function App() {
               adsCount={game._count.ads}
             />
           );
-        })}
+        })}t
       </div>
 
       <Dialog.Root>
