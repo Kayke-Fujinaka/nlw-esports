@@ -79,7 +79,7 @@ app.get("/ads/:id/discord", async (request, response) => {
 // Criação de novo anúncio
 app.post("/games/:id/ads", async (request, response) => {
   const gameId = request.params.id;
-  const body: any = request.body;
+  const body = request.body;
 
   const ad = await prisma.ad.create({
     data: {

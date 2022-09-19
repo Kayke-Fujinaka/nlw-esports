@@ -221,7 +221,7 @@ export function CreateAdModal() {
           <label className="mt-2 flex gap-2 text-sm items-center">
             <Checkbox.Root
               checked={useVoiceChannel}
-              onCheckedChange={(checked: any) =>
+              onCheckedChange={(checked: boolean) =>
                 checked === true
                   ? setUseVoiceChannel(true)
                   : setUseVoiceChannel(false)
